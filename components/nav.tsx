@@ -3,7 +3,17 @@ import Image from "next/image"
 
 const Nav = () => {
     return (
-        <nav className="bg-gray-900 text-white p-6 flex flex-col items-center min-h-screen">
+        <nav className="
+            bg-gradient-to-t from-slate-900 to-slate-700
+            text-white 
+            p-6 
+            flex 
+            flex-col 
+            items-center 
+            min-h-screen
+            bottom-0
+            "
+        >
             <Image
                 src="/images/profile.jpg"
                 alt="Profile Picture"
@@ -18,7 +28,7 @@ const Nav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/about">
+                    <Link href="/projects">
                         <span className="hover:underline block py-2">Projects</span>
                     </Link>
                 </li>
