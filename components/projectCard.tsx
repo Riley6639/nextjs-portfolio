@@ -3,13 +3,14 @@ import Image from 'next/image';
 
 interface ProjectCardProps {
     name: string;
+    stack: "full" | "frontend" | "backend";
     description: string;
     image: string;
     link: string;
     gitHub: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, image, link, gitHub }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ name, stack, description, image, link, gitHub }) => {
     return (
         <div className="
             flex 

@@ -29,7 +29,7 @@ const Nav = () => {
                 </li>
                 <li>
                     <Link href="/projects">
-                        <span className="hover:underline block py-2">Projects</span>
+                        <span className="hover:underline block py-2">Work</span>
                     </Link>
                 </li>
                 <li>

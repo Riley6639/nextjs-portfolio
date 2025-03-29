@@ -1,5 +1,5 @@
 import ProjectCard from "@/components/projectCard";
-import { projectData } from "../Data/projectData";
+import { projectData } from "../data/projectData";
 
 export default function Projects() {
     return (

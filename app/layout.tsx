@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Nav from "@/components/nav";
+// import Nav from "@/components/nav";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
@@ -16,14 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col bg-[url('/images/background-portfolio.jpg')] bg-cover bg-center min-h-screen">
         <Header />
         <div className="flex flex-1 justify-between">
-          <aside className="w-64 bg-gradient-to-t from-slate-900 to-slate-700 bottom-0">
-            <Nav />
-          </aside>
           <main className="flex-1 p-6">{children}</main>
         </div>
+        <Footer />
       </body>
     </html>
   );
