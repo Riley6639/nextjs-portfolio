@@ -1,6 +1,6 @@
 import TextBox from "@/components/textBox";
 import ProjectCard from "@/components/projectCard";
-import { projectData } from "@/app/data/projectData";
+import { projectData } from "./Data/projectData";
 
 export default function Home() {
 
