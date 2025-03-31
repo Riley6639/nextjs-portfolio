@@ -64,6 +64,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, stack, description, ima
                         GitHub
                 </a>
             </div>
+
+            <p className="text-sm text-gray-400 italic">Stack: {stack}</p>
         </div>
     );
 }
