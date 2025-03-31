@@ -3,11 +3,12 @@ import Image from 'next/image';
 
 interface ProjectCardProps {
     name: string;
-    stack: "full" | "frontend" | "backend";
+    stack: string;
     description: string;
     image: string;
     link: string;
     gitHub: string;
+    key?: number | string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ name, stack, description, image, link, gitHub }) => {

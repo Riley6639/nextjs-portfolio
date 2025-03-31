@@ -1,6 +1,5 @@
 import TextBox from "@/components/textBox";
 import ProjectCard from "@/components/projectCard";
-// import { projectData } from "./data/projectData";
 
 const projectData = [
     {
